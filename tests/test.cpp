@@ -152,10 +152,6 @@ std::string expectedOutput = "10:00 10 client1";
     EXPECT_EQ(output, expectedOutput);
 }
 
-TEST(add_tests, positive_test_1){
-    EXPECT_EQ(3, 3);
-}
-
 int main(int argc, char **argv){
     ::testing::InitGoogleTest(&argc, argv);
 
